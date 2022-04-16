@@ -7,8 +7,9 @@
         "outDir": "dist"
     },
     "include": [
-        "./scripts",
-        "./test"
+        "./scripts/**/*",
+        "./test/**/*",
+        "./utils/**/*"
     ],
     "files": [
         "./hardhat.config.ts"
